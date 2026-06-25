@@ -1,0 +1,57 @@
+# =======================
+# EtuSmart — .gitignore
+# =======================
+
+# ── Environnement & Secrets ─────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+jwt_secret.txt
+
+# ── Node.js ─────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.pnpm-store/
+
+# ── Build outputs ────────────────────────────────────────────────────────────
+dist/
+build/
+.next/
+out/
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ── Docker volumes (données locales) ────────────────────────────────────────
+docker/volumes/
+docker/data/
+.docker/
+
+# ── Uploads temporaires ──────────────────────────────────────────────────────
+uploads/
+tmp/
+
+# ── IDE & OS ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.DS_Store
+Thumbs.db
+
+# ── Tests ────────────────────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+
+# ── Ollama (modèles téléchargés localement, gros fichiers) ──────────────────
+ollama_models/
