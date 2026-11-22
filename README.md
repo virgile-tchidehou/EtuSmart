@@ -109,8 +109,8 @@ docker exec -it etusmart_ollama ollama pull mistral
 
 | Phase | Description              | Durée     |
 |-------|--------------------------|-----------|
-| P1    | ✅ Cadrage & Architecture | 1 sem     |
-| P2    | ✅ Setup infrastructure   | 1 sem     |
+| P1    | Cadrage & Architecture | 1 sem     |
+| P2    | Setup infrastructure   | 1 sem     |
 | P3    | Auth & Users             | 1 sem     |
 | P4    | Backend Dépenses         | 1 sem     |
 | P5    | Backend Bibliothèque     | 1 sem     |
